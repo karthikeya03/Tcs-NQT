@@ -1,5 +1,6 @@
 # 📊 Percentages — Complete TCS NQT Notes
-> **Your Status:** Concepts 1–3 done ✅ | Continue from 4 below
+> **Your Status:** Concepts 1–3 done ✅ | Every concept has **Formula Method + Manual Method**
+
 ---
 
 ## ✅ What You Already Know
@@ -13,7 +14,7 @@
 ---
 
 ## 📌 Must-Know Fraction ↔ Percentage Table
-> **Memorise this table. It will save you 20–30 seconds per question.**
+> **Memorise this. Saves 20–30 seconds per question.**
 
 | Fraction | Percentage | Fraction | Percentage |
 |---|---|---|---|
@@ -25,455 +26,524 @@
 | 1/7 | **14.28%** | 3/4 | **75%** |
 | 1/8 | **12.5%** | 3/5 | **60%** |
 
-> 💡 **How to use this:** If a question says "what is 1/8 of 640?" — you instantly know it's 12.5% of 640 = 80. No calculation needed.
-
 ---
 
 ## 4️⃣ Percentage of a Number
 
-**Formula:**
+### 🔵 Formula Method
 ```
 x% of N = (x / 100) × N
 ```
-
-**Example:**
 > What is 35% of 480?
 ```
-= (35/100) × 480
-= 35 × 4.8
-= 168 ✅
+= (35/100) × 480 = 35 × 4.8 = 168 ✅
 ```
 
-**Trick — Break into parts:**
+---
+
+### 🟢 Manual Method (No Formula — Breaking Trick)
+> You already use this instinctively. Just build 10% first, then add up.
+
 ```
-35% of 480
-= 30% of 480 + 5% of 480
-= 144 + 24
-= 168 ✅
+Step 1: Find 10% of 480 → move decimal left → 48
+Step 2: 30% = 3 × 48 = 144
+Step 3: 5% = half of 10% = 24
+Step 4: 35% = 30% + 5% = 144 + 24 = 168 ✅
 ```
-> 💡 Always break ugly percentages into `10% + 5% + ...` chunks. Much faster.
+
+> 💡 **Break ANY ugly % into 10% + 5% + 1% chunks. Always works.**
+
+| Need | How to Get It |
+|---|---|
+| 10% | Move decimal left once |
+| 5% | Half of 10% |
+| 1% | Move decimal left twice |
+| 20% | Double of 10% |
+| 25% | Divide by 4 |
+| 50% | Divide by 2 |
+| 15% | 10% + 5% |
+| 35% | 30% + 5% |
+| 12% | 10% + 2% (2 × 1%) |
 
 ---
 
 ## 5️⃣ What Percent is A of B?
 
-**Formula:**
+### 🔵 Formula Method
 ```
 (A / B) × 100
 ```
-
-**Example:**
 > 45 is what % of 180?
 ```
-= (45 / 180) × 100
-= (1/4) × 100
-= 25% ✅
+= (45/180) × 100 = (1/4) × 100 = 25% ✅
 ```
-
-> 💡 **Trick:** Always simplify the fraction FIRST before multiplying by 100.
 
 ---
 
-## 6️⃣ Finding the Original Number (Reverse Percentage)
+### 🟢 Manual Method
+> Think of it as: **"A is how many parts out of B total? Scale that to 100."**
 
-> This is one of the **most asked types in TCS NQT.** Very easy to get wrong if you use the wrong base.
+```
+Step 1: Write as a fraction → 45/180
+Step 2: Simplify → 1/4
+Step 3: 1/4 means 1 out of 4 parts
+Step 4: If total is 100, then 1 part = 25
+→ Answer = 25% ✅
+```
 
-**Situation:** After a x% increase/decrease, the final value is Y. Find original.
+> 💡 **Simplify the fraction first, THEN convert. Never multiply big numbers.**
 
-**Formula:**
+---
+
+## 6️⃣ Finding the Original Number (Reverse Percentage) ⭐⭐⭐
+
+### 🔵 Formula Method
 ```
 Original = (Final Value × 100) / (100 ± x)
 ```
-
-**Example 1 — Increase:**
-> After a 20% increase, a number becomes 480. Find original.
+> After 20% increase, number becomes 480. Original?
 ```
-Original = (480 × 100) / 120
-= 48000 / 120
-= 400 ✅
+= (480 × 100) / 120 = 400 ✅
 ```
-
-**Example 2 — Decrease:**
-> After a 25% decrease, a number becomes 600. Find original.
+> After 25% decrease, number becomes 600. Original?
 ```
-Original = (600 × 100) / 75
-= 60000 / 75
-= 800 ✅
-```
-
-> ⚠️ **Common Mistake:** Students calculate 20% of 480 = 96, then subtract. WRONG. 
-> The 20% was applied on the ORIGINAL, not the final. Always use the formula above.
-
----
-
-## 7️⃣ Percentage Change (Increase / Decrease)
-
-**Formula:**
-```
-% Change = [(New Value − Old Value) / Old Value] × 100
-```
-
-- If result is **positive** → % Increase
-- If result is **negative** → % Decrease
-
-**Example:**
-> Price went from ₹400 to ₹520. What is the % increase?
-```
-= [(520 − 400) / 400] × 100
-= [120 / 400] × 100
-= 30% increase ✅
+= (600 × 100) / 75 = 800 ✅
 ```
 
 ---
 
-## 8️⃣ Successive Percentage Change ⭐ (Very Frequently Asked)
+### 🟢 Manual Method (Unitary / Parts Method)
+> Think of original as 100 parts. After x% change, it becomes (100 ± x) parts. You know the final. Scale back.
 
-> When a value is changed by x% and then again by y%, the **net % change is NOT x + y.**
+**Example — 20% Increase:**
+```
+Original = 100 parts
+After 20% increase = 120 parts = 480 (given)
 
-**Formula:**
+So 120 parts = 480
+→ 1 part = 480 / 120 = 4
+→ 100 parts = 4 × 100 = 400 ✅
+```
+
+**Example — 25% Decrease:**
+```
+Original = 100 parts
+After 25% decrease = 75 parts = 600 (given)
+
+So 75 parts = 600
+→ 1 part = 600 / 75 = 8
+→ 100 parts = 8 × 100 = 800 ✅
+```
+
+> ⚠️ **The Classic Wrong Approach (Never Do This):**
+> "20% of 480 = 96, so original = 480 − 96 = 384" ❌ WRONG
+> The 20% was on the ORIGINAL, not the final. The parts method above makes this crystal clear.
+
+---
+
+## 7️⃣ Percentage Change
+
+### 🔵 Formula Method
+```
+% Change = [(New − Old) / Old] × 100
+```
+> Price went from ₹400 to ₹520. % increase?
+```
+= [(520 − 400) / 400] × 100 = [120/400] × 100 = 30% ✅
+```
+
+---
+
+### 🟢 Manual Method
+> Find how much it changed → express that as a fraction of original → convert to %
+
+```
+Step 1: Change = 520 − 400 = 120
+Step 2: "120 is what fraction of 400?"
+         → 120/400 = 3/10
+Step 3: 3/10 = 30% ✅
+```
+
+> 💡 **Simplify the fraction first using the fraction table.** If it's 1/4 you already know it's 25%.
+
+---
+
+## 8️⃣ Successive Percentage Change ⭐⭐
+
+### 🔵 Formula Method
 ```
 Net % Change = x + y + (xy / 100)
 ```
-- Use **+** for increase, **−** for decrease
+Use + for increase, − for decrease
 
-**Example 1 — Both Increases:**
-> A number is increased by 20%, then again by 10%. Net change?
+> 20% increase then 10% increase:
 ```
-= 20 + 10 + (20 × 10)/100
-= 30 + 2
-= 32% increase ✅
+= 20 + 10 + (20×10)/100 = 30 + 2 = 32% ✅
 ```
-
-**Example 2 — One Increase, One Decrease:**
-> Price increased by 30%, then decreased by 20%. Net change?
+> 30% increase then 20% decrease:
 ```
-= 30 + (−20) + (30 × −20)/100
-= 10 + (−600/100)
-= 10 − 6
-= 4% increase ✅
+= 30 + (−20) + (30×−20)/100 = 10 − 6 = 4% increase ✅
 ```
-
-**Example 3 — Both Decreases:**
-> A value is decreased by 10%, then by 10%. Net change?
+> 10% decrease then 10% decrease:
 ```
-= −10 + (−10) + (−10 × −10)/100
-= −20 + 1
-= −19% → 19% decrease ✅
-```
-
-> 💡 **TCS Favourite:** "A number is increased by 10% and then decreased by 10% — is it the same?"
-> Answer: **NO** → Net = −1% (always a small loss when same % applied up then down)
-
----
-
-## 9️⃣ Percentage More Than / Less Than ⭐
-
-> Most confusing concept. Read carefully.
-
-### Case A — A is what % MORE than B?
-```
-
-= [(A − B) / B] × 100
-
-```
-Base is **B** (the one being compared against).
-
-### Case B — A is what % LESS than B?
-```
-
-= [(B − A) / B] × 100
-
-```
-Base is still **B**.
-
----
-
-### Example
-
-A earns ₹800, B earns ₹1000.
-
-- **A's salary is what % less than B?**  
-  [(1000 − 800) / 1000] × 100 = **20%**
-
-- **B's salary is what % more than A?**  
-  [(1000 − 800) / 800] × 100 = **25%**
-
-⚠️ **Key Insight:**  
-20% less ≠ 20% more because the **denominator (base) changes**.
-
-- For **less**, base = bigger number (B)
-- For **more**, base = smaller number (A)
-
----
-
-## 🧠 Can also be solved without formulas
-
-You do not actually need to remember the formula.  
-Just follow these steps logically.
-
-1. **Find the difference**
-```
-
-Difference = Bigger − Smaller
-
-```
-
-2. **Identify the base**
-- If the question says **less than B**, compare with **B**
-- If the question says **more than A**, compare with **A**
-
-3. **Convert the difference into a percentage of the base**
-```
-
-Percentage = Difference / Base
-
+= −10 + (−10) + (−10×−10)/100 = −20 + 1 = −19% ✅
 ```
 
 ---
 
-### Mental Method Example
+### 🟢 Manual Method (Assume 100, Apply Changes Step by Step)
+> Forget the formula entirely. Just take 100 and apply the percentages one by one.
 
-A = 800  
-B = 1000  
+**Example — 20% increase then 10% increase:**
+```
+Start:           100
+After 20% up:    100 + 20 = 120
+After 10% up:    120 + 12 = 132
 
-Difference = **200**
-
-**A is % less than B**
-
-Think:  
-200 out of 1000
-
+Net change = 132 − 100 = 32 → 32% increase ✅
 ```
 
-200 / 1000 = 0.2 = 20%
+**Example — 30% increase then 20% decrease:**
+```
+Start:           100
+After 30% up:    100 + 30 = 130
+After 20% down:  130 − 26 = 104
 
+Net change = 104 − 100 = 4 → 4% increase ✅
 ```
 
-So **A is 20% less than B**.
+**Example — 10% down then 10% down:**
+```
+Start:           100
+After 10% down:  100 − 10 = 90
+After 10% down:  90 − 9 = 81
+
+Net change = 81 − 100 = −19 → 19% decrease ✅
+```
+
+> 💡 **This manual method is actually FASTER than the formula** once you get used to it.
+> It also works for 3 successive changes — formula gets messy, this stays clean.
+
+> **TCS Favourite Trap:** "10% up then 10% down = same?" → **NO → always −1%**
+```
+100 → 110 → 99 → Lost 1 → 1% loss ✅
+```
 
 ---
 
-**B is % more than A**
+## 9️⃣ Percentage More Than / Less Than ⭐⭐
 
-Think:  
-200 out of 800
-
+### 🔵 Formula Method
 ```
-
-200 / 800 = 0.25 = 25%
-
+A is what % MORE than B?  = [(A − B) / B] × 100   (base = B)
+A is what % LESS than B?  = [(B − A) / B] × 100   (base = B)
 ```
-
-So **B is 25% more than A**.
 
 ---
 
-✔️ **Shortcut idea**
+### 🟢 Manual Method (What You Learned — Difference ÷ Base)
+> No formula needed. Just 3 steps:
 
-Instead of memorizing formulas, remember:
 ```
-Percentage comparison = Difference ÷ Base
+Step 1: Find the Difference = Bigger − Smaller
+Step 2: Identify the Base (who is being compared AGAINST)
+Step 3: Percentage = (Difference / Base) × 100
 ```
+
+**Example: A = 800, B = 1000**
+
+*A is what % less than B?*
 ```
-Then convert the result into percent.
+Difference = 1000 − 800 = 200
+Base = B = 1000 (comparing against B)
+= 200/1000 = 0.2 = 20% ✅
 ```
+
+*B is what % more than A?*
+```
+Difference = 1000 − 800 = 200
+Base = A = 800 (comparing against A)
+= 200/800 = 0.25 = 25% ✅
+```
+
+> ⚠️ **Key Insight — The Reverse Trap:**
+> If A is **25% more** than B → B is **NOT 25% less** than A
+> Let A = 125, B = 100
+> B is less than A by: 25/125 × 100 = **20%** ← different number, different base
+
+| Statement | Base Used |
+|---|---|
+| X is more than Y | Y is base |
+| X is less than Y | Y is base |
+| X is more than Z by 30% | Z is base |
+> 💡 **Simple Rule: The base is always the thing AFTER the word "than".**
+
+---
 
 ## 🔟 Population / Price Growth Formula ⭐
 
-> Used when something grows/decays at a constant % per year.
-
-**Formula:**
+### 🔵 Formula Method
 ```
 Final Value = Initial Value × (1 ± r/100)^n
 ```
-- `r` = rate per year
-- `n` = number of years
-- `+` for growth, `−` for decay/depreciation
-
-**Example:**
-> Population of a city is 2,00,000. It grows at 5% per year. Population after 2 years?
+> Population 2,00,000 grows at 5% per year. After 2 years?
 ```
-= 200000 × (1 + 5/100)²
-= 200000 × (1.05)²
-= 200000 × 1.1025
-= 2,20,500 ✅
+= 200000 × (1.05)² = 200000 × 1.1025 = 2,20,500 ✅
 ```
-
-> 💡 This formula is the same as **Compound Interest**. Learn once, use everywhere.
 
 ---
 
-## 1️⃣1️⃣ Income / Expenditure Type (Classic TCS Pattern) ⭐⭐
+### 🟢 Manual Method (Apply % Year by Year)
+> Only practical for n = 2. For n = 3+ use the formula.
 
-> **"Income increases by x%, expenditure increases by y%, find % change in savings"**
-> This is a 2–3 mark question that appears almost every year.
+```
+Year 0: 2,00,000
+Year 1: 200000 + 5% of 200000 = 200000 + 10000 = 2,10,000
+Year 2: 210000 + 5% of 210000 = 210000 + 10500 = 2,20,500 ✅
+```
 
-**Standard Method — Use Values:**
+> 💡 This is identical to Compound Interest. Learn once, apply everywhere.
+
+---
+
+## 1️⃣1️⃣ Income / Expenditure / Savings Type ⭐⭐⭐
+
+### 🔵 Formula Method
+> No clean formula — always use assumed values. See manual method below.
+
+---
+
+### 🟢 Manual Method (Assume Numbers — Always Use This)
+> **Never use variables (algebra) for this type. Assume numbers and work with them.**
 
 **Example:**
-> Income increases by 20%, expenditure increases by 10%.
-> Originally income = ₹500, expenditure = ₹400, savings = ₹100.
-> Find % change in savings.
+> Income increases by 20%, expenditure by 10%. Originally income = ₹500, expenditure = ₹400. Find % change in savings.
 
 ```
-Step 1: Assume income = 500, expenditure = 400, savings = 100
-Step 2: New income = 500 × 1.20 = 600
-Step 3: New expenditure = 400 × 1.10 = 440
-Step 4: New savings = 600 − 440 = 160
-Step 5: % change in savings = [(160−100)/100] × 100 = 60% increase ✅
+Step 1: Savings = 500 − 400 = 100
+
+Step 2: New income     = 500 × 1.20 = 600
+        New expenditure = 400 × 1.10 = 440
+        New savings     = 600 − 440  = 160
+
+Step 3: % change = [(160 − 100) / 100] × 100 = 60% increase ✅
 ```
 
-> 💡 **Always assume convenient numbers** (multiples of 100). Don't work with variables.
+> 💡 **What numbers to assume?**
+> If the question gives spending % of income (e.g. "spends 75%"), then:
+> - Let income = 400, expenditure = 300, savings = 100
+> - Choose numbers where savings is a round 100 — makes % calculation trivial
+
+**Example with %:**
+> A man spends 75% of his income. Income increases by 20%, expenditure by 10%. % change in savings?
+```
+Let income = 400 (so 75% = 300 is easy)
+Expenditure = 300, Savings = 100
+
+New income      = 400 × 1.20 = 480
+New expenditure = 300 × 1.10 = 330
+New savings     = 480 − 330  = 150
+
+% change = [(150−100)/100] × 100 = 50% increase ✅
+```
 
 ---
 
 ## 1️⃣2️⃣ Price × Consumption = Expenditure Type ⭐⭐
 
-> **"Price increases by x%. By how much % must consumption be reduced to keep expenditure same?"**
+### 🔵 Formula Method
+```
+Price increases by x% → Reduce consumption by: [x / (100 + x)] × 100
+Price decreases by x% → Increase consumption by: [x / (100 − x)] × 100
+```
+> Price up 25% → reduce by [25/125] × 100 = 20% ✅
+> Price down 20% → increase by [20/80] × 100 = 25% ✅
 
-**Formula:**
+---
+
+### 🟢 Manual Method (Fix Expenditure, Find New Consumption)
+> Keep expenditure constant. Adjust consumption.
+
+**Example — Price increases by 25%:**
 ```
-Required Reduction % = [x / (100 + x)] × 100
+Let original price = 100, original consumption = 100
+Original expenditure = 100 × 100 = 10000
+
+New price = 125 (25% more)
+New consumption = 10000 / 125 = 80
+
+Reduction = 100 − 80 = 20
+% reduction = (20/100) × 100 = 20% ✅
 ```
 
-**Example:**
-> Price of petrol increases by 25%. By how much % should consumption be reduced?
+**Example — Price decreases by 20%:**
 ```
-= [25 / (100 + 25)] × 100
-= [25 / 125] × 100
-= 20% ✅
+Let original price = 100, consumption = 100
+Expenditure = 10000
+
+New price = 80
+New consumption = 10000 / 80 = 125
+
+Increase = 125 − 100 = 25
+% increase = (25/100) × 100 = 25% ✅
 ```
 
-**Reverse — Price decreases:**
-> Price decreases by 20%. By how much % can consumption be increased?
-```
-Formula: [x / (100 − x)] × 100
-= [20 / 80] × 100
-= 25% ✅
-```
-
-> 💡 **Memory Trick:** Price UP → consumption must come DOWN → divide by (100 + x)
-> Price DOWN → consumption can go UP → divide by (100 − x)
+> 💡 **Memory Hook:** Price and consumption are inversely related (like a seesaw).
+> Price goes UP → consumption must come DOWN to keep expenditure flat.
+> Price goes DOWN → consumption can go UP.
 
 ---
 
 ## 1️⃣3️⃣ Marks / Exam Percentage Type ⭐
 
-**Type 1 — Find marks when % given:**
-> A student scores 65% in an exam. Max marks = 800. Marks scored?
+### 🔵 Formula Method
 ```
-= (65/100) × 800 = 520 ✅
-```
-
-**Type 2 — Passed/Failed type (Very common in TCS):**
-> A student scored 30% and failed by 20 marks. Pass % is 40%. Find max marks.
-```
-Pass marks = 40% of Max
-Student got = 30% of Max
-Difference = 10% of Max = 20 marks
-Max = 20 × 100/10 = 200 ✅
+Pass/Fail: (Pass% − Student%) × Max = Marks difference
+Max = Marks difference / (Pass% − Student%) × 100
 ```
 
-**Type 3 — Two students comparison:**
-> A scored 40%, B scored 60%. B scored 30 more marks than A. Find max marks.
+---
+
+### 🟢 Manual Method (Think in Parts)
+
+**Type — Pass/Fail:**
+> Scored 30%, failed by 20 marks. Pass % = 40%.
 ```
-Difference = 60% − 40% = 20% of Max = 30
-Max = (30/20) × 100 = 150 ✅
+Student got    = 30% of Max
+Pass marks     = 40% of Max
+Gap between them = 10% of Max = 20 marks
+
+Think: 10 parts out of 100 = 20 marks
+       So 1 part = 2
+       100 parts = 200
+
+Max marks = 200 ✅
+```
+
+**Type — Two Student Comparison:**
+> A scored 40%, B scored 60%. B got 30 more marks. Find max.
+```
+Difference = 60% − 40% = 20% of Max = 30 marks
+So 20 parts = 30 → 1 part = 1.5 → 100 parts = 150
+
+Max marks = 150 ✅
 ```
 
 ---
 
 ## 1️⃣4️⃣ Election / Votes Type ⭐
 
-**Classic Pattern:**
-> In an election between 2 candidates, winner got 60% of votes and won by 240 votes. Find total votes.
-
+### 🟢 Manual Method (Parts Method — Same Logic as Above)
+> In an election, winner got 60% and won by 240 votes.
 ```
 Winner = 60%, Loser = 40%
-Difference = 20% of Total = 240
-Total = (240/20) × 100 = 1200 ✅
+Difference = 20% of Total = 240 votes
+
+20 parts = 240
+1 part = 12
+100 parts = 1200
+
+Total votes = 1200 ✅
 ```
+
+> 💡 **This is the same unitary/parts thinking used in reverse percentage, exam type, and here.** Once you get this thinking, all 3 types become one type.
 
 ---
 
 ## 1️⃣5️⃣ Data Interpretation with Percentages
 
-> In TCS DI questions, you'll see % of totals in tables/pie charts. Key formulas:
+### Key Conversions
 
 ```
-Actual Value = (% / 100) × Total
-% Share = (Part / Total) × 100
-% Change between years = [(New − Old) / Old] × 100
+Actual Value from %    = (% / 100) × Total
+% share of a part      = (Part / Total) × 100
+% change across years  = [(New − Old) / Old] × 100
+Pie chart sector → %   = (Degrees / 360) × 100
 ```
 
-> 💡 For pie charts: if a sector = 72°, its % = (72/360) × 100 = **20%**
+**Pie chart example:**
+> Sector = 72°
+```
+= (72/360) × 100 = 20% ✅
+```
+
+### 🟢 Manual for DI % Change
+```
+Year 1 value = 400, Year 2 value = 500
+Change = 100
+100 out of 400 = 1/4 = 25% increase ✅
+```
+> Simplify the fraction first before converting. Always faster.
 
 ---
 
 ## ⚡ Speed Tricks Summary
 
-| Trick | How |
+| Trick | Method |
 |---|---|
-| **10% of any number** | Move decimal one place left. 10% of 450 = 45 |
-| **5% of any number** | Half of 10%. 5% of 450 = 22.5 |
-| **1% of any number** | Move decimal two places left. 1% of 450 = 4.5 |
-| **25% of any number** | Divide by 4 |
-| **50% of any number** | Divide by 2 |
-| **33.33% of any number** | Divide by 3 |
-| **12.5% of any number** | Divide by 8 |
-| **Breaking method** | 37% = 30% + 7% = 30% + 5% + 2% |
+| 10% of N | Move decimal one place left |
+| 5% of N | Half of 10% |
+| 1% of N | Move decimal two places left |
+| 25% of N | Divide by 4 |
+| 50% of N | Divide by 2 |
+| 33.33% of N | Divide by 3 |
+| 12.5% of N | Divide by 8 |
+| 37% of N | = (30% + 5% + 2%) of N |
 
 ---
 
-## 🧩 TCS NQT — Percentage Question Types & Frequency
+## 🧩 TCS NQT — Question Types & Frequency
 
-| Question Type | Frequency | Difficulty |
-|---|---|---|
-| Reverse percentage (find original) | ⭐⭐⭐ Very High | Easy |
-| Successive % change | ⭐⭐⭐ Very High | Easy–Medium |
-| Income/Expenditure/Savings | ⭐⭐⭐ Very High | Medium |
-| Price × Consumption | ⭐⭐ High | Medium |
-| Exam marks (pass/fail) | ⭐⭐ High | Easy |
-| % more / % less than | ⭐⭐ High | Easy |
-| Election / Votes | ⭐ Medium | Easy |
-| Population growth | ⭐ Medium | Medium |
+| Question Type | Frequency | Difficulty | Best Method |
+|---|---|---|---|
+| Reverse % (find original) | ⭐⭐⭐ Very High | Easy | Parts method |
+| Successive % change | ⭐⭐⭐ Very High | Easy | Assume 100, apply steps |
+| Income / Expenditure / Savings | ⭐⭐⭐ Very High | Medium | Assume values |
+| Price × Consumption | ⭐⭐ High | Medium | Fix expenditure |
+| Exam marks (pass/fail) | ⭐⭐ High | Easy | Parts method |
+| % more / % less than | ⭐⭐ High | Easy | Difference ÷ Base |
+| Election / Votes | ⭐ Medium | Easy | Parts method |
+| Population growth | ⭐ Medium | Medium | Year-by-year or formula |
 
 ---
 
-## 🔁 Practice Questions (Solve These — TCS Level)
+## 🔁 Practice Questions (TCS Level)
 
-> Try each one yourself before seeing the answer.
-
-**Q1.** A number is increased by 15% and then decreased by 10%. Net % change?
+**Q1.** A number is increased by 15%, then decreased by 10%. Net % change?
 ```
-Answer: = 15 − 10 + (15 × −10)/100 = 5 − 1.5 = 3.5% increase
-```
-
-**Q2.** After a 20% discount, a shirt costs ₹640. Original price?
-```
-Answer: = (640 × 100) / 80 = ₹800
+Manual: 100 → +15% → 115 → −10% → 115 − 11.5 = 103.5
+Net = 3.5% increase ✅
 ```
 
-**Q3.** Price of rice increases by 20%. By how much % must consumption be reduced to keep expenditure same?
+**Q2.** After 20% discount, a shirt costs ₹640. Original price?
 ```
-Answer: = [20/120] × 100 = 16.67%
-```
-
-**Q4.** A scored 75% marks, B scored 50% marks. By what % is A's marks more than B?
-```
-Answer: Let max = 100. A = 75, B = 50. % more = [(75−50)/50] × 100 = 50%
+Parts: 80 parts = 640 → 1 part = 8 → 100 parts = 800
+Original = ₹800 ✅
 ```
 
-**Q5.** In an election, winner got 55% votes and won by 60 votes. Find total votes.
+**Q3.** Price of rice up 20%. By what % should consumption reduce to keep expenditure same?
 ```
-Answer: Difference = 10% = 60 votes → Total = 600
+Fix expenditure = 10000. New price = 120.
+New consumption = 10000/120 = 83.33
+Reduction = 16.67% ✅
 ```
 
-**Q6.** A man spends 75% of his income. If income increases by 20% and expenditure by 10%, find % change in savings.
+**Q4.** A scored 75%, B scored 50%. By what % is A's marks more than B?
 ```
-Answer: Let income = 400, expenditure = 300, savings = 100
-New income = 480, new exp = 330, new savings = 150
-% change = [(150−100)/100] × 100 = 50% increase
+Difference = 25. Base = B = 50.
+25/50 = 1/2 = 50% ✅
+```
+
+**Q5.** Winner got 55% of votes and won by 60 votes. Total votes?
+```
+Difference = 10% = 60 → 1% = 6 → 100% = 600 ✅
+```
+
+**Q6.** Man spends 75% of income. Income up 20%, expenditure up 10%. % change in savings?
+```
+Income = 400, Expenditure = 300, Savings = 100
+New income = 480, New exp = 330, New savings = 150
+% change = 50% increase ✅
 ```
 
 ---
@@ -485,44 +555,59 @@ PERCENTAGES
 │
 ├── BASICS
 │   ├── % ↔ Fraction conversion
-│   ├── % of a number
-│   └── What % is A of B
+│   ├── % of a number (breaking method)
+│   └── What % is A of B (simplify fraction first)
 │
 ├── CHANGE PROBLEMS
-│   ├── % Increase / Decrease
-│   ├── Reverse % (find original)
-│   ├── Successive % change ⭐
-│   └── % More / Less than ⭐
+│   ├── % Increase / Decrease (change ÷ original)
+│   ├── Reverse % — Parts Method ⭐
+│   ├── Successive % — Assume 100 Method ⭐
+│   └── % More / Less — Difference ÷ Base ⭐
 │
 ├── REAL-WORLD APPLICATIONS
-│   ├── Income / Expenditure / Savings ⭐⭐
-│   ├── Price × Consumption ⭐⭐
-│   ├── Exam Marks (Pass/Fail) ⭐
-│   ├── Election / Votes ⭐
-│   └── Population Growth
+│   ├── Income / Expenditure / Savings — Assume Values ⭐⭐
+│   ├── Price × Consumption — Fix Expenditure ⭐⭐
+│   ├── Exam Marks Pass/Fail — Parts Method ⭐
+│   ├── Election / Votes — Parts Method ⭐
+│   └── Population Growth — Year by Year
 │
 └── DATA INTERPRETATION
     ├── % from tables
-    ├── % from pie charts (degree → %)
+    ├── % from pie charts (degrees ÷ 360 × 100)
     └── % change across years
 ```
 
 ---
 
-## 🚨 Common Mistakes to NEVER Make in TCS
+## 🚨 Common Mistakes — Never Make These in TCS
 
-| Mistake | Correct Approach |
+| Wrong Approach | Correct Approach |
 |---|---|
-| After 10% up then 10% down = same value | It's **−1%** net. Never same. |
-| Finding original by subtracting x% from final | Use `Original = Final × 100 / (100 ± x)` |
-| Using wrong base for "% more / % less" | Always divide by the **reference value** (B) |
-| 25% more ↔ 25% less are inverses | If A is 25% more than B, B is **20%** less than A |
-| Adding % directly (30% + 20% = 50%) | Only valid if same base. Use successive formula. |
+| 10% up then 10% down = same | 100 → 110 → 99 → **−1% loss** always |
+| Finding original by subtracting x% from final | Use parts method: (100 ± x) parts = Final |
+| Adding successive % directly | Assume 100, apply step by step |
+| Using wrong base for % more/less | Base = the word AFTER "than" |
+| 25% more ↔ 25% less are inverses | If A is 25% more than B → B is **20%** less than A |
 
 ---
 
-> **Next Topics to Study:** Profit & Loss (builds directly on Percentages) → then Simple Interest → then Compound Interest
-> All three are just applied percentages. Master this sheet and the next 3 topics become very easy.
+## 🧠 The One Mental Model Behind Everything
 
+> Once you see this, all percentage problems become easy.
 
-<img width="764" height="839" alt="image" src="https://github.com/user-attachments/assets/f967dfaa-5ba4-4635-a09e-d9bf54f07944" />
+```
+Think of ORIGINAL as 100 parts.
+
+After x% increase  → it becomes (100 + x) parts
+After x% decrease  → it becomes (100 − x) parts
+
+You are always given one value and asked for another.
+Use unitary method: find 1 part, then scale.
+```
+
+> This single idea solves: Reverse %, Election, Exam Marks, Income/Savings — all of them.
+
+---
+
+> **Next:** Profit & Loss — it's just Percentages applied to buying and selling. 
+> Every formula in P&L is derived from what you just learned here.
