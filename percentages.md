@@ -172,24 +172,111 @@ Net % Change = x + y + (xy / 100)
 
 ### Case A — A is what % MORE than B?
 ```
+
 = [(A − B) / B] × 100
+
 ```
-> Base is **B** (the one being compared against)
+Base is **B** (the one being compared against).
 
 ### Case B — A is what % LESS than B?
 ```
+
 = [(B − A) / B] × 100
+
 ```
-> Base is still **B**
-
-**Example:**
-> A earns ₹800, B earns ₹1000.
-> - A's salary is what % less than B? → [(1000−800)/1000] × 100 = **20%**
-> - B's salary is what % more than A? → [(1000−800)/800] × 100 = **25%**
-
-> ⚠️ **Key Insight:** 20% less ≠ 20% more. The denominators are different. This tricks most students.
+Base is still **B**.
 
 ---
+
+### Example
+
+A earns ₹800, B earns ₹1000.
+
+- **A's salary is what % less than B?**  
+  [(1000 − 800) / 1000] × 100 = **20%**
+
+- **B's salary is what % more than A?**  
+  [(1000 − 800) / 800] × 100 = **25%**
+
+⚠️ **Key Insight:**  
+20% less ≠ 20% more because the **denominator (base) changes**.
+
+- For **less**, base = bigger number (B)
+- For **more**, base = smaller number (A)
+
+---
+
+## 🧠 Can also be solved without formulas
+
+You do not actually need to remember the formula.  
+Just follow these steps logically.
+
+1. **Find the difference**
+```
+
+Difference = Bigger − Smaller
+
+```
+
+2. **Identify the base**
+- If the question says **less than B**, compare with **B**
+- If the question says **more than A**, compare with **A**
+
+3. **Convert the difference into a percentage of the base**
+```
+
+Percentage = Difference / Base
+
+```
+
+---
+
+### Mental Method Example
+
+A = 800  
+B = 1000  
+
+Difference = **200**
+
+**A is % less than B**
+
+Think:  
+200 out of 1000
+
+```
+
+200 / 1000 = 0.2 = 20%
+
+```
+
+So **A is 20% less than B**.
+
+---
+
+**B is % more than A**
+
+Think:  
+200 out of 800
+
+```
+
+200 / 800 = 0.25 = 25%
+
+```
+
+So **B is 25% more than A**.
+
+---
+
+✔️ **Shortcut idea**
+
+Instead of memorizing formulas, remember:
+```
+Percentage comparison = Difference ÷ Base
+```
+```
+Then convert the result into percent.
+```
 
 ## 🔟 Population / Price Growth Formula ⭐
 
