@@ -6,16 +6,20 @@
 ## 📋 TABLE OF CONTENTS
 1. [Full Exam Structure](#-full-exam-structure)
 2. [Package Comparison — Prime vs Digital vs Ninja](#-package-comparison)
-3. [Numerical Ability Deep Dive](#-numerical-ability-deep-dive)
-4. [Topic-Wise Expected Questions](#-topic-wise-expected-questions--priority)
-5. [Topics to SKIP / Not Waste Time On](#-topics-to-skip--not-waste-time-on)
-6. [Fill in the Blank Questions (8 Qs)](#-fill-in-the-blank-questions)
-7. [Coding Section — Test Cases & Strategy](#-coding-section--test-cases)
-8. [Cutoff & Normalized Scoring](#-cutoff--normalized-scoring)
-9. [How Many Questions to Solve Per Section](#-how-many-questions-to-solve-per-section)
-10. [Resources — YouTube, Mock Tests, Coding](#-resources)
-11. [My Preparation Flowchart](#-preparation-flowchart)
-12. [Week-by-Week Prep Plan](#-week-by-week-prep-plan)
+3. [Numerical Ability — Deep Dive](#-numerical-ability-deep-dive)
+4. [Verbal Ability — Deep Dive](#-verbal-ability-deep-dive)
+5. [Reasoning Ability — Deep Dive](#-reasoning-ability-deep-dive)
+6. [Advanced Quant + Reasoning — Deep Dive](#-advanced-quant--reasoning-deep-dive)
+7. [Advanced Coding — Deep Dive](#-advanced-coding-deep-dive)
+8. [Topic-Wise Expected Questions](#-topic-wise-expected-questions--priority)
+9. [Topics to SKIP / Not Waste Time On](#-topics-to-skip--not-waste-time-on)
+10. [Fill in the Blank Questions (8 Qs)](#-fill-in-the-blank-questions)
+11. [Cutoff & Normalized Scoring](#-cutoff--normalized-scoring)
+12. [How Many Questions to Solve Per Section](#-how-many-questions-to-solve-per-section)
+13. [Resources — YouTube, Mock Tests, Coding](#-resources)
+14. [Preparation Flowchart](#-preparation-flowchart)
+15. [Week-by-Week Prep Plan](#-week-by-week-prep-plan)
+16. [Quick Reference — Key Numbers](#-quick-reference--key-numbers)
 
 ---
 
@@ -32,7 +36,7 @@
 | 🧠 Reasoning Ability | **20 Qs** | **25 mins** | Easy–Medium | ✅ Yes (within Foundation) |
 | **Foundation Total** | **60 Qs** | **75 mins** | — | — |
 
-> 💡 **Pro Tip:** You CAN switch between the 3 Foundation sections. Most students don't know this and waste time being stuck. If you're stuck on a Numerical question, jump to Verbal or Reasoning and come back.
+> 💡 **Pro Tip:** You CAN switch between the 3 Foundation sections freely within the 75-minute window. Most students don't know this. If stuck on a Numerical question, jump to Verbal or Reasoning and come back.
 
 ---
 
@@ -68,7 +72,7 @@
 
 ---
 
-## 📐 Numerical Ability Deep Dive
+## 📐 Numerical Ability — Deep Dive
 
 > **20 Questions | 25 Minutes | Easy–Medium**
 > That's **75 seconds per question.** Speed is everything.
@@ -82,15 +86,13 @@
 | DI (tables, graphs) | 2–3 | 90 sec | 120 sec |
 | Skip-and-return candidates | 1–2 | — | Last 2 min |
 
----
+### 📊 Topic-Wise Breakdown — Numerical Ability
 
-## 📊 Topic-Wise Expected Questions & Priority
-
-| # | Topic | Expected Qs | Priority | My Suggestion |
+| # | Topic | Expected Qs | Priority | Notes |
 |---|---|---|---|---|
 | 1 | **Percentages** | 2–3 | 🔴 MUST | Base for P&L, SI, CI — learn this FIRST |
 | 2 | **Time, Speed & Distance** | 2–3 | 🔴 MUST | Trains, boats, relative speed — high repeat |
-| 3 | **Data Interpretation** | 2–3 | 🔴 MUST | Tables + bar graph most common. Practice speed reading |
+| 3 | **Data Interpretation** | 2–3 | 🔴 MUST | Tables + bar graph most common |
 | 4 | **Profit & Loss** | 1–2 | 🔴 MUST | Always comes. SP, CP, discount % combos |
 | 5 | **Time & Work + Pipes** | 1–2 | 🔴 MUST | LCM method is fastest — use it |
 | 6 | **Ratio & Proportion** | 1–2 | 🔴 MUST | Base for Mixtures, Averages |
@@ -104,119 +106,387 @@
 | 14 | **Geometry (Basic)** | 1 | 🟡 MEDIUM | Angles, triangles, basic properties only |
 | **TOTAL** | | **~20 Qs** | | |
 
+### 🎯 Numerical Ability — Strategy
+
+```
+Order of Attempt:
+1st → SI, CI, %, Ratio (direct formula — fastest)
+2nd → P&L, T&W, TSD (moderate — 60–75 sec each)
+3rd → DI set (read chart once, answer all related Qs together)
+Last → P&C, Number System (if time left)
+Skip → Any Q that looks ugly in first 10 seconds. Flag. Return.
+```
+
+---
+
+## 📝 Verbal Ability — Deep Dive
+
+> **20 Questions | 25 Minutes | Easy–Medium**
+> Most underrated section. Students ignore it and lose easy marks.
+> Verbal is the **most scoring section** if you prepare it right.
+
+### ⏱ Time Budget Per Question Type
+
+| Type | Questions | Time to Spend | Max Time |
+|---|---|---|---|
+| Fill in the Blanks | 6–8 | 30–45 sec | 60 sec |
+| Reading Comprehension | 4–6 | 60–75 sec/Q | 90 sec |
+| Error Spotting / Sentence Correction | 3–4 | 45 sec | 60 sec |
+| Para Jumbles / Sentence Ordering | 2–3 | 60 sec | 90 sec |
+| Vocabulary (synonyms, antonyms) | 2–3 | 30 sec | 45 sec |
+
+### 📊 Topic-Wise Breakdown — Verbal Ability
+
+| # | Topic | Expected Qs | Priority | Notes |
+|---|---|---|---|---|
+| 1 | **Fill in the Blanks** | 6–8 | 🔴 MUST | Grammar + vocabulary in context. NOT word lists. |
+| 2 | **Reading Comprehension (RC)** | 4–6 | 🔴 MUST | 1 passage, 4–5 questions. Skim passage, answer Qs |
+| 3 | **Error Spotting / Sentence Correction** | 3–4 | 🔴 MUST | Subject-verb agreement, tense, prepositions |
+| 4 | **Para Jumbles** | 2–3 | 🟠 HIGH | Find the opening sentence first, then link logically |
+| 5 | **Synonyms / Antonyms** | 2–3 | 🟠 HIGH | Context-based, not dictionary-based |
+| 6 | **One-Word Substitution** | 1–2 | 🟡 MEDIUM | Occasional. Don't over-prepare. |
+| 7 | **Cloze Test** | 1–2 | 🟡 MEDIUM | Paragraph with multiple blanks — theme-based |
+| **TOTAL** | | **~20 Qs** | | |
+
+### 🔑 What to Prepare — Verbal Ability
+
+**Fill in the Blanks (FIBs) — 8 Questions:**
+- Prepositions: in, on, at, for, since, during, between, among
+- Conjunctions: although, however, therefore, whereas, unless, despite
+- Tense consistency — spot the tense of surrounding sentences
+- Subject-verb agreement — singular/plural matching
+- Vocabulary in context — read the full sentence, don't guess
+
+**Reading Comprehension:**
+- Do NOT read the full passage first. Skim headings/first lines.
+- Read each question, then hunt for that specific answer in the passage.
+- Inference questions — answer must be implied, not assumed.
+- Time killer: don't spend more than 5 minutes on one RC passage.
+
+**Error Spotting:**
+- Common errors: wrong preposition, wrong tense, subject-verb mismatch
+- Read sentence aloud in your head — your ear catches errors faster than your eye
+
+**Para Jumbles:**
+- Find the sentence that introduces a new concept → it's usually the first
+- Find the sentence with "however", "therefore", "but" → always follows another specific sentence
+- Find the conclusion sentence → ends without introducing anything new
+
+### 🎯 Verbal Ability — Strategy
+```
+Order of Attempt:
+1st → FIBs (fastest — grammar sense decides instantly)
+2nd → Synonyms/Antonyms (30 sec each)
+3rd → Error Spotting (quick if grammar is sharp)
+4th → Para Jumbles
+5th → RC (do LAST — most time consuming)
+Skip → Any RC inference question you can't find in passage
+```
+
+> 💡 **My Tip:** Read one editorial from The Hindu every day for 2 weeks. Your RC speed, FIB sense, and vocabulary all improve together with one habit.
+
+---
+
+## 🧠 Reasoning Ability — Deep Dive
+
+> **20 Questions | 25 Minutes | Easy–Medium**
+> Most pattern-based section. Once you recognise the type, solving is mechanical.
+> Practice = speed here, not intelligence.
+
+### ⏱ Time Budget Per Question Type
+
+| Type | Questions | Time to Spend | Max Time |
+|---|---|---|---|
+| Series / Patterns | 3–4 | 30–45 sec | 60 sec |
+| Blood Relations | 2–3 | 45–60 sec | 75 sec |
+| Seating Arrangement | 3–4 | 90 sec total | 2 min for set |
+| Logical Deductions | 2–3 | 45 sec | 60 sec |
+| Coding-Decoding | 2–3 | 30–45 sec | 60 sec |
+| Direction Sense | 1–2 | 45 sec | 60 sec |
+| Syllogisms | 2–3 | 45 sec | 60 sec |
+
+### 📊 Topic-Wise Breakdown — Reasoning Ability
+
+| # | Topic | Expected Qs | Priority | Notes |
+|---|---|---|---|---|
+| 1 | **Number / Letter Series** | 3–4 | 🔴 MUST | Difference pattern, square/cube series, alternating series |
+| 2 | **Seating Arrangement** | 3–4 | 🔴 MUST | Linear and circular. Draw diagram always. |
+| 3 | **Blood Relations** | 2–3 | 🔴 MUST | Family tree method. Draw it, don't imagine it. |
+| 4 | **Coding-Decoding** | 2–3 | 🔴 MUST | Letter shift, word coding, number coding |
+| 5 | **Syllogisms** | 2–3 | 🔴 MUST | Venn diagram method. All/Some/No type. |
+| 6 | **Direction Sense** | 1–2 | 🟠 HIGH | Always draw compass. Never solve in head. |
+| 7 | **Logical Deductions** | 2–3 | 🟠 HIGH | Statement-conclusion, statement-assumption type |
+| 8 | **Inequalities** | 1–2 | 🟠 HIGH | A > B > C type chains. Very fast if practised. |
+| 9 | **Data Sufficiency** | 1–2 | 🟠 HIGH | Statement I alone / II alone / Both needed |
+| 10 | **Puzzles (Ranking, Scheduling)** | 1–2 | 🟡 MEDIUM | Multi-variable grid method |
+| 11 | **Analogy** | 1–2 | 🟡 MEDIUM | Relationship pattern matching |
+| 12 | **Odd One Out** | 1 | 🟡 MEDIUM | Number or word that breaks the pattern |
+| **TOTAL** | | **~20 Qs** | | |
+
+### 🔑 What to Prepare — Reasoning Ability
+
+**Number Series — Pattern Types:**
+- Difference series: 2, 5, 9, 14, 20 → diff = 3, 4, 5, 6
+- Square series: 1, 4, 9, 16, 25
+- Cube series: 1, 8, 27, 64
+- Alternating series: two interleaved series
+- × 2, × 3 pattern: 3, 6, 12, 24
+
+**Seating Arrangement:**
+- Always draw a diagram. Never solve in head.
+- Linear: left-right positions on a line
+- Circular: facing centre or outside changes left/right
+
+**Blood Relations:**
+- Make a family tree with boxes and arrows
+- Symbols: M = Male, F = Female, → = parent of, = = married to
+
+**Coding-Decoding:**
+- Letter shift: A+3 = D type
+- Reverse alphabet: A=Z, B=Y
+- Word position coding: 1st letter of each word
+
+**Syllogisms (Venn Diagram):**
+- All A are B → A circle fully inside B circle
+- Some A are B → A and B circles overlap partially
+- No A are B → A and B circles separate
+
+### 🎯 Reasoning Ability — Strategy
+```
+Order of Attempt:
+1st → Series (fastest — 30 sec each)
+2nd → Coding-Decoding (pattern recognition)
+3rd → Inequalities (mechanical — no thinking needed)
+4th → Blood Relations (draw tree, answer instantly)
+5th → Syllogisms (Venn diagram — 45 sec each)
+6th → Direction Sense (draw compass)
+Last → Seating Arrangement (time-consuming — do as a set)
+Skip → Complex puzzles with 5+ variables
+```
+
+> 💡 **My Tip:** Reasoning is 100% pattern recognition. Do 10 questions of each type from IndiaBIX. After that, you'll recognise every TCS reasoning question within 5 seconds of reading it.
+
+---
+
+## 📊 Advanced Quant + Reasoning — Deep Dive
+
+> **~10 Questions | 25 Minutes | Hard**
+> This section is harder versions of Foundation topics + new types not in Foundation.
+> You DON'T need 10/10 here. Even 6–7/10 is enough for Prime.
+
+### ⏱ Time Budget
+
+| Situation | Action |
+|---|---|
+| Q looks solvable in < 90 sec | Solve it |
+| Q needs 2+ min of setup | Skip, come back |
+| Q is completely unfamiliar type | Guess and move to coding |
+
+> 🚨 **Advanced Quant is a time trap.** Spending 5 min on one hard Advanced Quant Q = missing 2 coding test cases. Coding > Advanced Quant always.
+
+### 📊 Topic-Wise Breakdown — Advanced Quant + Reasoning
+
+| # | Topic | Expected Qs | Priority | Notes |
+|---|---|---|---|---|
+| 1 | **Data Sufficiency** | 2–3 | 🔴 MUST | "Is statement I alone sufficient?" type — needs logical thinking |
+| 2 | **Advanced DI (Mixed charts, calculated data)** | 2–3 | 🔴 MUST | More complex than Foundation DI. More calculation steps. |
+| 3 | **Logical Reasoning (Complex Arrangements)** | 2–3 | 🔴 MUST | Multi-condition seating, scheduling puzzles |
+| 4 | **Critical Reasoning** | 1–2 | 🟠 HIGH | Strengthen/Weaken argument type |
+| 5 | **Advanced Arithmetic (CI, TSD, Work — complex)** | 1–2 | 🟠 HIGH | Multi-step versions of Foundation topics |
+| 6 | **Probability (Basic)** | 1 | 🟡 MEDIUM | Rarely deep — basic coin/dice/ball problems |
+| **TOTAL** | | **~10 Qs** | | |
+
+### 🔑 Data Sufficiency — How to Approach
+
+```
+Question gives you a PROBLEM and 2 Statements (I and II).
+
+You must decide:
+(A) Statement I alone is sufficient
+(B) Statement II alone is sufficient
+(C) Both together are sufficient
+(D) Neither is sufficient
+
+KEY: You are NOT solving the problem. You are deciding IF it CAN be solved.
+```
+
+**Example:**
+> Is x > 5?
+> I. x > 3
+> II. x > 7
+
+```
+Statement I alone: x > 3 doesn't confirm x > 5. NOT sufficient.
+Statement II alone: x > 7 → definitely > 5. SUFFICIENT.
+Answer: (B) ✅
+```
+
+### 🔑 Critical Reasoning — Types
+
+| Type | What to Look For |
+|---|---|
+| **Strengthen the argument** | Pick option that adds evidence supporting the conclusion |
+| **Weaken the argument** | Pick option that provides a counter-example or missing fact |
+| **Find the assumption** | What must be true for the argument to hold? |
+| **Conclusion** | What logically follows from the given statements? |
+
+### 🎯 Advanced Quant — Strategy
+```
+Attempt Order:
+1st → Advanced DI (numbers are given — just calculate)
+2nd → Data Sufficiency (logical — no big calculation)
+3rd → Advanced Arithmetic (if it looks like a known formula)
+Skip → Critical Reasoning if passage is long
+Skip → Complex Arrangements (time killer)
+
+Time Rule: If any Q crosses 90 seconds → guess and move to coding.
+Coding marks are worth more than Advanced Quant marks for Prime.
+```
+
+---
+
+## 💻 Advanced Coding — Deep Dive
+
+> **3 Questions | 90 Minutes | Medium–Hard**
+> This is the PRIMARY differentiator for Prime. No shortcut here.
+
+### Problem Difficulty Breakdown
+
+| Problem | Difficulty | Time Budget | Expected Topics |
+|---|---|---|---|
+| Problem 1 | 🟢 Easy | 15–20 min | Arrays, Strings, Loops, Basic math |
+| Problem 2 | 🟡 Medium | 25–30 min | Sorting, HashMap, Two pointers, Pattern |
+| Problem 3 | 🔴 Hard (Prime-level) | 35–40 min | Trees, DP, Graphs, Stack, Queue |
+
+### Test Case Strategy
+
+| Role Target | Problems to Solve | Test Cases Goal |
+|---|---|---|
+| 🥇 **Prime** | All 3 attempted | 100% on P1 + P2, partial on P3 |
+| 🥈 **Digital** | 2 of 3 | All test cases on both |
+| 🥉 **Ninja** | 1 of 3 | Even partial test cases count |
+
+> 💡 **Partial credit matters.** 4 out of 6 test cases passing on P3 is better than not submitting.
+
+### Topic-Wise Coding Preparation
+
+| Topic | Importance | What to Focus On |
+|---|---|---|
+| **Arrays & Strings** | 🔴 MUST | Sliding window, two pointer, frequency count |
+| **Sorting** | 🔴 MUST | Know built-in sort + custom comparator |
+| **HashMap / Hashing** | 🔴 MUST | Frequency maps, pair sums, duplicate detection |
+| **Recursion & Backtracking** | 🟠 HIGH | Subsets, permutations |
+| **Stack & Queue** | 🟠 HIGH | Balanced brackets, next greater element |
+| **Linked Lists** | 🟠 HIGH | Reversal, cycle detection, merge |
+| **Binary Search** | 🟠 HIGH | On answer, on sorted arrays |
+| **Trees (Binary Tree / BST)** | 🟠 HIGH | Traversals, height, LCA |
+| **Dynamic Programming** | 🟠 HIGH | 0/1 Knapsack, LCS, coin change |
+| **Graphs** | 🟡 MEDIUM | BFS, DFS, connected components |
+| **Greedy** | 🟡 MEDIUM | Activity selection, minimum coins |
+| **Math / Number Theory** | 🟡 MEDIUM | GCD, prime check, digit problems |
+
+### Compiler Tips (From Real Candidates)
+
+> ⚠️ These are reported issues from actual TCS NQT test-takers:
+
+- **Use Python** — fewest compiler issues, fastest to write
+- **Avoid tabs** — use spaces for indentation (tabs break Python in TCS compiler)
+- Check output in the **output panel**, not the main screen
+- **Java: use BufferedReader**, not Scanner (Scanner has caused issues)
+- Always test against the **given sample test case first**
+- If getting WA on all test cases, check **input format** — often the bug is in reading input, not logic
+- For edge cases: check empty input, single element, negative numbers
+
+### Brute Force Strategy
+```
+If you can't find the optimal solution:
+
+Step 1: Write a brute force (nested loops, etc.)
+Step 2: Submit → get partial test cases
+Step 3: If time remains, optimise
+Step 4: Partial test cases > 0 test cases. Always submit something.
+```
+
+### Recommended Prep Path
+```
+Week 1–2: Arrays, Strings, HashMap, Sorting → solve 20 problems each
+Week 3–4: Stack, Queue, Linked List, Recursion → 15 problems each
+Week 5:   Trees, Binary Search, DP basics → 10 problems each
+Week 6:   Full mock problems from TCS NQT Top 100 sheet (UI Forward)
+```
+
 ---
 
 ## ❌ Topics to SKIP / Not Waste Time On
 
-> These topics either **rarely appear** or the time investment is not worth the 1 question you might gain.
-
-| Topic | Reason to Skip / Limit |
-|---|---|
-| 🚫 **Advanced Geometry** (circle theorems, coordinate geometry) | At most 1 basic Q. Deep prep = wasted hours |
-| 🚫 **Probability** | Rarely asked in NQT Numerical. Appears more in Advanced section |
-| 🚫 **Partnership / Shares** | Extremely rare. Not worth dedicated prep time |
-| 🚫 **Complex 3D Mensuration** (cones, frustums) | If it appears, guess and move on |
-| 🚫 **Number Series (beyond basic)** | Falls under Reasoning, not Numerical |
-| ⚠️ **Permutations & Combinations (advanced)** | Do basics only. Skip circular arrangement, necklace problems |
-
-> 🧠 **My Take:** Don't chase 20/20 in Numerical. Chase **16–17/20 in 18 minutes** and use the spare 7 minutes for DI or review. That is a smarter strategy.
+| Section | Topic | Reason |
+|---|---|---|
+| Numerical | 🚫 Advanced Geometry (circle theorems, coordinate) | At most 1 basic Q. Deep prep = wasted hours |
+| Numerical | 🚫 Partnership / Shares | Extremely rare |
+| Numerical | 🚫 Complex 3D Mensuration (cones, frustums) | Guess and move on if it appears |
+| Numerical | ⚠️ P&C (advanced — circular, necklace) | Do basics only |
+| Verbal | 🚫 Idioms & Phrases lists | Context > memorisation. Don't mug up |
+| Verbal | 🚫 Foreign words / phrases | Never comes in TCS |
+| Reasoning | 🚫 Complex Input-Output (machine coding) | Extremely rare in TCS. Time killer. |
+| Reasoning | 🚫 Course of Action | Almost never in TCS NQT pattern |
+| Adv. Quant | 🚫 Complex Probability (Bayes, conditional) | Too rare for the prep time needed |
+| Adv. Coding | 🚫 Segment Trees, Fenwick Trees | Never asked in TCS NQT |
+| Adv. Coding | 🚫 Complex Graph algorithms (Dijkstra, Bellman-Ford) | TCS level doesn't go this deep |
 
 ---
 
 ## ✍️ Fill in the Blank Questions
 
-> **8 Fill-in-the-blank questions are asked** — these appear in the **Verbal Ability** section.
+> **~8 Fill-in-the-blank questions** — in the **Verbal Ability** section.
 
 | Aspect | Detail |
 |---|---|
 | **Count** | ~8 questions |
 | **Section** | Verbal Ability (Foundation) |
-| **Type** | Sentence completion, grammar-based blanks, vocabulary-in-context |
+| **Type** | Sentence completion, grammar-based, vocabulary-in-context |
 | **Difficulty** | Easy to Medium |
 | **Strategy** | Read full sentence → eliminate options → pick contextually correct word |
 
-### What to Prepare for FIBs:
+**Topics inside FIBs:**
+- Prepositions (in, on, at, for, since, during)
+- Conjunctions (although, however, therefore, whereas)
+- Tense consistency
+- Subject-verb agreement
+- Vocabulary in context
 
-- **Prepositions** (in, on, at, for, since, during)
-- **Conjunctions** (although, however, therefore, whereas)
-- **Tense consistency**
-- **Vocabulary in context** (do NOT mug up word lists — read sentences)
-- **Subject-verb agreement**
-
-> 💡 **Tip:** The FIBs in TCS are NOT about rare vocabulary. They test basic grammar sense. Read 2 editorials a day from *The Hindu* or *Times of India* for 2 weeks — that's sufficient.
-
----
-
-## 💻 Coding Section — Test Cases
-
-> **3 Coding Questions | 90 Minutes | Advanced Section**
-
-### Test Case Strategy
-
-| Role Target | Coding Problems to Solve | Test Cases to Pass | Realistic Goal |
-|---|---|---|---|
-| 🥇 **Prime** | All 3 | **All test cases (100%)** for 2 problems + partial on 1 | Solve 2 fully + partially solve 3rd |
-| 🥈 **Digital** | 2 of 3 | Pass majority of test cases on both | Solve 2 completely |
-| 🥉 **Ninja** | 1 of 3 (or even partial) | Even partial counts | Attempt all, solve 1 fully |
-
-### Coding Problem Difficulty Breakdown
-
-| Problem | Difficulty | Expected Topics |
-|---|---|---|
-| Problem 1 | Easy | Arrays, Strings, Basic loops |
-| Problem 2 | Medium | Sorting, HashMap, Pattern logic |
-| Problem 3 | Hard (Prime-level) | DSA — Trees, DP, Graph, Stack/Queue |
-
-### Compiler Tips (from real exam experiences)
-
-> ⚠️ TCS compiler has known issues. These are reported by real candidates:
-
-- **Use Python** if possible — fewer input/output issues
-- **Avoid tabs** — use spaces for indentation (tabs cause indentation errors)
-- Output is not shown immediately on the main screen — check the output panel separately
-- **Java input** via Scanner has caused issues — use BufferedReader instead
-- Always test with the given sample test case first before submitting
-
-### Recommended Practice Resource
-
-> 🔗 **UI Forward — TCS NQT Top 100 Sheet** on *takeuforward.org*
-> This is the best curated list. Practice these problems in order. Don't random-grind LeetCode — use this targeted sheet.
+> 💡 FIBs are NOT about rare vocabulary. They test grammar sense. 2 weeks of reading editorials is enough.
 
 ---
 
 ## 📈 Cutoff & Normalized Scoring
 
-> TCS uses **normalization** — if your slot had a harder paper, the cutoff is adjusted down proportionally. Don't panic if the exam felt hard.
-
-### Expected Normalized Cutoff (Approximate — varies by batch year)
+> TCS uses **normalization** — harder paper slots get adjusted cutoffs.
 
 | Role | Foundation Cutoff | Advanced Cutoff | Overall Percentile |
 |---|---|---|---|
 | 🥉 **Ninja** | ~50–60% | Not required | ~50th–60th percentile |
 | 🥈 **Digital** | ~65–70% | ~60–65% | ~70th–80th percentile |
-| 🥇 **Prime** | ~75–80% | ~80%+ (all 3 coding attempted) | ~85th–92nd percentile |
+| 🥇 **Prime** | ~75–80% | ~80%+ | ~85th–92nd percentile |
 
-> 📌 **Key Facts about Normalization:**
-> - TCS normalizes scores across different exam slots/days
-> - A score of 16/20 in a hard slot = higher normalized score than 16/20 in an easy slot
-> - Do NOT compare raw scores with friends who wrote on different dates
-> - Interview performance is the final decider — even a Prime-qualified candidate can be rejected
+> 📌 **Key Facts:**
+> - TCS normalizes across different slots/days
+> - 16/20 in a hard slot > 16/20 in an easy slot (after normalization)
+> - Do NOT compare raw scores with friends from different dates
+> - Interview is the final decider — even Prime-qualified candidates can be rejected
 
 ---
 
 ## ✅ How Many Questions to Solve Per Section
-
-> Target these numbers to be in a safe zone for your desired profile:
 
 | Section | Total Qs | Ninja Target | Digital Target | Prime Target |
 |---|---|---|---|---|
 | 📐 Numerical Ability | 20 | 12–13 | 15–16 | **17–18** |
 | 📝 Verbal Ability | 20 | 13–14 | 15–16 | **17–18** |
 | 🧠 Reasoning Ability | 20 | 12–13 | 14–15 | **16–17** |
-| 📊 Advanced Quant + Reasoning | ~10 | — | 6–7 | **8–9** |
+| 📊 Advanced Quant + Reasoning | ~10 | — | 6–7 | **7–8** |
 | 💻 Advanced Coding | 3 | 1 (partial ok) | 2 fully | **2 fully + 1 partial** |
 
-> 🎯 **For Prime:** You need **ALL sections** firing well — not just coding. Verbal and Reasoning matter equally in the overall percentile calculation.
+> 🎯 **For Prime:** ALL sections must fire well. Verbal and Reasoning matter equally in the overall percentile. Most Prime failures happen because students ignore Verbal.
 
 ---
 
@@ -224,19 +494,19 @@
 
 ### 🎥 YouTube Channels
 
-| Channel | Purpose | Why Use It |
+| Channel | Section | Why Use It |
 |---|---|---|
-| 📺 **Campus Mon** | Previous year TCS NQT questions + classes | Most aligned with actual TCS pattern; real exam walkthroughs |
-| 📺 **OnlineStudy4U** | Full syllabus classes | Structured, beginner-friendly, covers every topic systematically |
-| 📺 **One Short Aptitude** | Quick aptitude shortcuts | Great for last-minute formula revision, short videos |
-| 📺 **Logic (Aptitude)** | Logical reasoning focused | Strong on reasoning tricks used in TCS |
-| 📺 **Striver (take U forward)** | Coding (DSA) | Best DSA channel for structured coding prep; use TCS sheet |
-| 📺 **Abdul Bari** | Algorithms & DS fundamentals | If you need conceptual clarity before practicing |
+| 📺 **Campus Mon** | Numerical + Previous year Qs | Most aligned with actual TCS pattern |
+| 📺 **OnlineStudy4U** | All Aptitude | Structured, beginner-friendly |
+| 📺 **One Short Aptitude** | Numerical shortcuts | Great for last-minute formula revision |
+| 📺 **Logic (Aptitude)** | Reasoning | Strong on TCS-specific reasoning tricks |
+| 📺 **Striver (take U forward)** | Coding (DSA) | Best DSA channel. Use TCS NQT Top 100 sheet |
+| 📺 **Abdul Bari** | Coding (concepts) | Conceptual clarity on DS and algorithms |
+| 📺 **Apti for ALL** | Numerical | TCS-specific quant in Telugu/Hindi |
+| 📺 **CareerRide** | All Aptitude | Short topic-wise quick revision videos |
+| 📺 **Wifistudy / Study Smart** | Verbal + Reasoning | Good English grammar + reasoning explanations |
 
-> 💡 **My Additional Suggestion:**
-> - **Apti for ALL** — Great for TCS-specific quant shortcuts in Telugu/Hindi
-> - **CareerRide** — Short topic-wise aptitude videos; good for quick revision
-> - Don't subscribe to 10 channels. Pick **Campus Mon + One Short Aptitude + Striver** and go deep on those 3.
+> 💡 Don't follow 10 channels. Pick **Campus Mon + One Short Aptitude + Striver** and go deep on those 3.
 
 ---
 
@@ -244,22 +514,22 @@
 
 | Platform | Why Use It |
 |---|---|
-| 🔬 **TestNook** | Closest to actual TCS interface and difficulty. Take at least 5 full mocks here |
-| PrepInsta | Large question bank, TCS-specific |
-| IndiaBIX | Good for topic-wise practice |
-| GeeksforGeeks TCS Series | Well-structured, updated for 2026 pattern |
+| 🔬 **TestNook** | Closest to actual TCS interface and difficulty. At least 5 full mocks. |
+| PrepInsta | Large TCS-specific question bank |
+| IndiaBIX | Topic-wise practice for Reasoning especially |
+| GeeksforGeeks TCS Series | Updated for 2026 pattern |
 
-> 💡 **Mock Test Strategy:** Don't just take mocks — **analyze every wrong answer.** One analyzed mock is worth 5 unanalyzed mocks.
+> 💡 Don't just take mocks — **analyse every wrong answer.** One analysed mock = 5 unanalysed mocks.
 
 ---
 
 ### 🔗 Coding Practice
 
-| Resource | What to Use It For |
+| Resource | Use For |
 |---|---|
-| **UI Forward — TCS NQT Top 100** (takeuforward.org) | Primary coding prep. Do ALL 100 problems |
-| LeetCode (Easy + Medium) | Supplement after finishing Top 100 |
-| HackerRank (TCS CodeVita problems) | For Prime-level coding practice |
+| **UI Forward — TCS NQT Top 100** (takeuforward.org) | Primary. Do ALL 100. |
+| LeetCode Easy + Medium | Supplement after Top 100 |
+| HackerRank TCS CodeVita problems | Prime-level coding practice |
 
 ---
 
@@ -269,23 +539,23 @@
 START
   │
   ▼
-Understand Full Exam Pattern
+Understand Full Exam Pattern (Day 1)
   │
   ▼
 Foundation Prep (Weeks 1–3)
-  ├── Numerical Ability (Priority topics first)
-  ├── Verbal Ability (FIBs + RC + Grammar)
-  └── Reasoning Ability (Puzzles + Series + Arrangements)
+  ├── Numerical (Priority topics: %, TSD, DI, P&L, T&W)
+  ├── Verbal (FIBs + RC + Grammar + Para Jumbles)
+  └── Reasoning (Series + Arrangements + Blood Relations + Coding-Decoding)
   │
   ▼
 Advanced Prep (Weeks 3–5)
-  ├── Advanced Quant (Data Sufficiency + Complex Arithmetic)
-  └── Coding (UI Forward TCS Top 100 — 5 problems/day)
+  ├── Advanced Quant (Data Sufficiency + Complex DI + Critical Reasoning)
+  └── Coding (UI Forward TCS Top 100 — Arrays → Strings → DP → Trees)
   │
   ▼
 Mock Tests — TestNook (Week 5–6)
   ├── 1 Full Mock/Day
-  └── Analyze Every Wrong Answer
+  └── Analyse Every Wrong Answer by Section
   │
   ▼
 Final Week — Revision Only
@@ -296,9 +566,12 @@ Final Week — Revision Only
   ▼
 EXAM DAY
   ├── Foundation: Switch between sections if stuck
-  ├── Numerical: Skip hard Qs, come back
-  ├── Advanced Coding: Attempt all 3, complete 2
-  └── Never leave blank — No negative marking
+  ├── Numerical: Skip hard Qs, come back later
+  ├── Verbal: FIBs → Vocab → Error → RC (this order)
+  ├── Reasoning: Series → Coding-Decoding → Arrangement
+  ├── Advanced Quant: DI first, skip time-killers
+  ├── Advanced Coding: Attempt all 3. Brute force > nothing.
+  └── Never leave blank — No negative marking ✅
   │
   ▼
 RESULT → Prime / Digital / Ninja Interview
@@ -310,12 +583,12 @@ RESULT → Prime / Digital / Ninja Interview
 
 | Week | Focus | Daily Goal |
 |---|---|---|
-| **Week 1** | Percentages, Profit & Loss, Ratio, Averages | 2 topics/day + 30 practice Qs |
-| **Week 2** | TSD, Time & Work, SI & CI, Mixtures | 2 topics/day + 30 practice Qs |
-| **Week 3** | DI (tables, bar, pie), P&C, Number System, Mensuration | 1 DI set/day + topic Qs |
-| **Week 4** | Verbal (FIBs, RC, grammar), Reasoning (full syllabus) | 1 Verbal set + 1 Reasoning set/day |
-| **Week 5** | Advanced Quant + Coding (UI Forward Top 100) | 5 coding problems/day |
-| **Week 6** | Full Mocks (TestNook) + Error Analysis | 1 full mock/day + review |
+| **Week 1** | % , P&L, Ratio, Averages + Series, Coding-Decoding | 2 Numerical topics + 2 Reasoning topics/day |
+| **Week 2** | TSD, T&W, SI & CI, Mixtures + Blood Relations, Arrangements | 2 Numerical + 2 Reasoning topics/day |
+| **Week 3** | DI, P&C, Number System + FIBs, RC, Error Spotting | 1 DI set + 1 Verbal set + Reasoning revision |
+| **Week 4** | Advanced Quant (DS, Critical Reasoning) + Start Coding (Arrays, Strings) | 3 DS problems + 5 coding problems/day |
+| **Week 5** | Coding (HashMap, Stack, Trees, DP) + Full topic revision | 8–10 coding problems/day |
+| **Week 6** | Full Mocks (TestNook) + Error Analysis | 1 full mock/day + 1 hour analysis |
 | **Final 2 days** | Light revision, formula sheet, rest | No new topics |
 
 ---
@@ -327,31 +600,33 @@ RESULT → Prime / Digital / Ninja Interview
 | Total Exam Duration | **190 minutes** |
 | Total Questions | **~83** |
 | Numerical Ability Questions | **20** |
-| Numerical Ability Time | **25 minutes** |
-| Fill in the Blank Questions (Verbal) | **~8** |
-| Advanced Coding Questions | **3** |
-| Advanced Coding Time | **90 minutes** |
-| Foundation Time | **75 minutes** |
-| Advanced Time | **115 minutes** |
+| Verbal Ability Questions | **20** |
+| Reasoning Ability Questions | **20** |
+| Foundation Total | **60 Qs / 75 mins** |
+| Advanced Quant + Reasoning | **~10 Qs / 25 mins** |
+| Advanced Coding Questions | **3 Qs / 90 mins** |
+| Fill in the Blank (Verbal) | **~8 Qs** |
 | Negative Marking | **NONE ✅** |
 | Can go back to previous Q | **NO ❌** |
 | Tab switching | **Terminates exam ❌** |
 | Allowed languages (Coding) | **C, C++, Java, Python, Perl** |
+| Switch between Foundation sections | **YES ✅** |
+| Switch between Advanced sections | **NO ❌** |
 
 ---
 
-## ⚡ Last-Minute Tips (From Real TCS NQT Experiences)
+## ⚡ Last-Minute Exam Day Tips
 
-> These are not in any official guide — sourced from candidates who appeared in 2024–25:
-
-1. **Use Python for coding** — least compiler issues, fastest to write
-2. **The calculator is on-screen** — use it for complex Numerical Qs; don't do big calculations mentally
-3. **Rough paper is on-screen** — no physical paper in most centers
-4. **Don't stare at a Q for more than 90 seconds** — flag and move on
+1. **Use Python for coding** — fewest compiler issues, fastest to write
+2. **The calculator is on-screen** — use it. Don't calculate mentally.
+3. **Rough paper is on-screen** — no physical paper in most centres
+4. **Don't stare at any Q for more than 90 seconds** — flag and move on
 5. **Normalization works in your favour** on harder slots — don't panic mid-exam
-6. **For coding, write a brute-force solution first** — partial test cases passing > zero test cases
-7. **Advanced Quant is time-killer** — if a Q takes more than 2 min, skip it, go to coding, come back only if time remains
-8. **Read DI questions carefully** — most errors are from misreading the table/graph, not wrong math
+6. **For coding, write brute force first** — partial test cases > zero test cases
+7. **Advanced Quant is a time trap** — if a Q exceeds 90 sec, guess and go to coding
+8. **Read DI charts before Qs** — 30 seconds of reading saves 3 wrong answers
+9. **Verbal FIBs first** — fastest marks in the section
+10. **Reasoning: draw everything** — diagrams for seating, blood relations, direction
 
 ---
 
