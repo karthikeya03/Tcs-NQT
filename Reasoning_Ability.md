@@ -3,6 +3,8 @@
 > **Target for Prime: 16–17/20**
 > Every topic has Top 5 Sub-topics + TCS NQT style practice problems
 
+<img width="421" height="312" alt="image" src="https://github.com/user-attachments/assets/d72d3eb1-6ab8-4fb7-b151-00ad6c6e8e5c" />
+
 ---
 
 ## 📋 Table of Contents
